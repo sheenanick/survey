@@ -1,3 +1,17 @@
+body {
+  font-family: sans-serif;
+}
+h1 {
+  font-weight: bolder;
+  margin-bottom: 25px;
+}
+form {
+  margin-bottom: 50px;
+}
+.container {
+  display: block;
+  margin: 50px;
+}
 #results {
   display: none;
 }

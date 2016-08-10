@@ -14,11 +14,11 @@
       <div id="survey">
         <form>
           <div class="form-group">
-            <label for="name">What is your name?</label>
+            <span class="glyphicon glyphicon-pencil"></span> <label for="name">What is your name?</label>
             <input id="name" class="form-control" type="text">
           </div>
           <div class="form-group">
-            <label for="gender">What is your gender?</label>
+            <span class="glyphicon glyphicon-user"></span> <label for="gender">What is your gender?</label>
             <div class="radio">
               <label>
                 <input type="radio" name="gender" value="female">Female</label>
@@ -36,21 +36,21 @@
             </div>
           </div>
           <div class="form-group">
-            <label for="birthday">When is your birthday?</label>
+            <span class="glyphicon glyphicon-calendar"></span> <label for="birthday">When is your birthday?</label>
             <input id="birthday" class="form-control" type="date">
           </div>
           <div class="form-group">
-            <label for="color">What is your favorite color?</label>
+            <span class="glyphicon glyphicon-tint"></span> <label for="color">What is your favorite color?</label>
             <input id="color" class="form-control" type="color">
           </div>
           <div class="form-group">
-            <label for="food">What is your favorite food?</label>
+            <span class="glyphicon glyphicon-cutlery"></span> <label for="food">What is your favorite food?</label>
             <input id="food" class="form-control" type="text">
           </div>
           <div class="form-group">
-            <label for="Music">What is your favorite type of music?</label>
-            <select class="form-control" id="Music">
-              <option value="choose">Please choose one:</option>
+            <span class="glyphicon glyphicon-music"></span> <label for="music">What is your favorite type of music?</label>
+            <select class="form-control" id="music">
+              <option selected="true" disabled>Please choose one:</option>
               <option value="jazz">Jazz</option>
               <option value="rock">Rock</option>
               <option value="pop">Pop</option>
@@ -59,19 +59,19 @@
               <option value="other">Other</option>
             </select>
           </div>
-          <button type="submit" class="btn" id="submit">Submit</button>
+          <button type="submit" class="btn btn-success" id="submit">Submit</button>
           <button type="reset" class="btn" id="reset">Reset</button>
         </form>
       </div>
       <div id="results">
-        <h1>Survey Results</h1>
+        <h2>Survey Results</h2>
         <ul>
           <li>Name: <span class="name"></span></li>
           <li>Gender: <span class="gender"></span></li>
           <li>Birthday: <span class="birthday"></span></li>
           <li>Favorite color: <span class="color"></span></li>
           <li>Favorite food: <span class="food"></span></li>
-          <li>Favorite type of music: <span class="Music"></span></li>
+          <li>Favorite type of music: <span class="music"></span></li>
         </ul>
       </div>
     </div>
