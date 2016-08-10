@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Survey</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Tell us about yourself!</h1>
+      <div id="survey">
+        <form>
+          <div class="form-group">
+            <label for="name">What is your name?</label>
+            <input id="name" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="gender">What is your gender?</label>
+            <div class="radio">
+              <label>
+                <input type="radio" name="gender" value="female">Female</label>
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="gender" value="male">Male</label>
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="gender" value="non-binary">Non-binary</label>
+              </label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="birthday">When is your birthday?</label>
+            <input id="birthday" class="form-control" type="date">
+          </div>
+          <div class="form-group">
+            <label for="color">What is your favorite color?</label>
+            <input id="color" class="form-control" type="color">
+          </div>
+          <div class="form-group">
+            <label for="food">What is your favorite food?</label>
+            <input id="food" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="music">What is your favorite type of music?</label>
+            <select class="form-control" id="music">
+              <option value="jazz">Jazz</option>
+              <option value="rock">Rock</option>
+              <option value="pop">Pop</option>
+              <option value="blues">Blues</option>
+              <option value="rap">Rap</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
